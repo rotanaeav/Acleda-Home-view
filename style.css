@@ -26,10 +26,16 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    & i {
-      padding: 8px;
-      font-size: 1.5rem;
-    }
+  }
+}
+.chatbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 15px;
+  & img {
+    width: 32px;
   }
 }
 .profile-container {
@@ -178,7 +184,7 @@ body {
   }
 }
 
-/* hover effect */
+/* hover*/
 .grid-item:hover {
   background-color: #173b5e;
   transition: 0.3s;
@@ -229,3 +235,4 @@ body {
   stroke-dashoffset: 57;
   stroke-linecap: round;
 }
+
